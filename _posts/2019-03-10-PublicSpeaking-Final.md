@@ -13,8 +13,6 @@ tags:                               #标签
 
 # Finals (Public Speaking)
 
-[TOC]
-
 ## How to make a good game?
 
 ### Starting with 'the Delivery'

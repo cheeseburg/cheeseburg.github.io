@@ -4,7 +4,7 @@ title:      Introduction to ML(notes)              # 标题
 subtitle:   Andrew Ng, Stanford  #副标题
 date:       2019-03-20              # 时间
 author:     羽聪                      # 作者
-header-img: img/PublicSpeaking_midterm_post.jpg    #这篇文章标题背景图片
+header-img: img/ML.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - machine learning

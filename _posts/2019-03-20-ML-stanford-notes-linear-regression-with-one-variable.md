@@ -26,7 +26,7 @@ tags:                               #标签
 - Denote (x, y) to be one training example
 - Denote ($x^{(i)}, y^{(i)}$) to be the ith training example
 
-![image](http://cheegit seburg.tk/otherResources/ML_pics/1553073887657.png)
+![image](http://cheeseburg.tk/otherResources/ML_pics/1553073887657.png)
 
 #### How do we represent h?
 

@@ -16,9 +16,9 @@ tags:                               #标签
 ---
 #### Example 1
 
-![pic 1](https://github.com/cheeseburg/cheeseburg.github.io/tree/master/ML_img/1553062754689.png)
+![image](https://github.com/cheeseburg/cheeseburg.github.io/blob/master/ML_img/1553062754689.png)
 
-![pic 2](https://github.com/cheeseburg/cheeseburg.github.io/tree/master/ML_img/1553062819359.png)
+![image](https://github.com/cheeseburg/cheeseburg.github.io/blob/master/ML_img/1553062819359.png)
 
 "right answers" given
 
@@ -26,9 +26,9 @@ tags:                               #标签
 
 #### Example 2
 
-![pic 3](https://github.com/cheeseburg/cheeseburg.github.io/tree/master/ML_img/1553063006612.png)
+![image](https://github.com/cheeseburg/cheeseburg.github.io/blob/master/ML_img/1553063006612.png)
 
-![pic 4](https://github.com/cheeseburg/cheeseburg.github.io/tree/master/ML_img/1553063295981.png)
+![image](https://github.com/cheeseburg/cheeseburg.github.io/blob/master/ML_img/1553063295981.png)
 
 ### Unsupervised Learning
 

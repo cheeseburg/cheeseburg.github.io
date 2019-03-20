@@ -32,4 +32,17 @@ tags:                               #标签
 
 linear regression with one variable = univariate linear regression
 
-$h_{\theta}(x) = \theta_{0}+\theta_{1}x$
+Hypothesis: $h_{\theta}(x) = \theta_{0}+\theta_{1}x$
+
+#### Cost Function
+
+How to choose $\theta_{0}$ and $\theta_{1}$?
+
+​	Choose $\theta_{0}$ and $\theta_{1}$, s.t. $h_{\theta}(x)$ is close to y for our training examples$(x, y)$
+
+Our goal $\rightarrow \mathop {minimize }\limits_{\theta_{0}\theta_{1}}\frac{1}{2m} \sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^{2}$, m is # of training examples
+
+Denote $J(\theta_{0}, \theta_{1})=\frac{1}{2m} \sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^{2}$ $\rightarrow$ cost function
+
+$\textit{Squred Error Function}$ = $\mathop{minimize}\limits_{\theta_{0},\theta_{1}} J(\theta_{0},\theta_{1})$ 
+

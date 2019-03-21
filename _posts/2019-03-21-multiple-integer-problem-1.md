@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      multiple integer problem(1) ------ integer             # 标题 
+title:      multiple integer problem(1) --- integer             # 标题 
 subtitle:   from Huawei  #副标题
 date:       2019-03-21              # 时间
 author:     羽聪                      # 作者

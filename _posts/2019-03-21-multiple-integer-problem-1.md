@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      multiple integer problem(1) --- integer             # 标题 
-subtitle:   from Huawei  #副标题
+title:      Multiple Integer Problem(1) --- integer             # 标题 
+subtitle:   From Huawei  #副标题
 date:       2019-03-21              # 时间
 author:     羽聪                      # 作者
 header-img: img/equation.jpg    #这篇文章标题背景图片
@@ -20,6 +20,7 @@ tags:                               #标签
 Given a positive integer X, add '+' or '-' to satisfy the following equation.
 
 `1 2 3 4 5 6 7 8 9 = X`
+
 For example：
 
 - 1. `12-34+5-67+89 = 5` 

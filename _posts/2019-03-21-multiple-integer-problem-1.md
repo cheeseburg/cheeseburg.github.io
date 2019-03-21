@@ -24,11 +24,6 @@ For example：
 
 - 1. `12-34+5-67+89 = 5` 
   2. `1+23+4-5+6-7-8-9 = 5`
-  3. 请编写程序，统计满足输入整数的所有整数个数。
-    输入： 正整数，等式右边的数字
-    输出： 使该等式成立的个数
-    样例输入：5
-    样例输出：21
 
 Please write codes to calculate the total # of solutions.
 

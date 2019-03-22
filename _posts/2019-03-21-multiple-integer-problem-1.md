@@ -15,8 +15,6 @@ tags:                               #标签
 
 ---
 
-输入一个正整数X，在下面的等式左边的数字之间添加+号或者-号，使得等式成立。
-
 Given a positive integer X, add '+' or '-' to satisfy the following equation.
 
 `1 2 3 4 5 6 7 8 9 = X`
@@ -34,7 +32,7 @@ Please write codes to calculate the total # of solutions.
 
 
 
-Sample Code:
+#### Sample Code:
 
 ```python
 class counter(object):

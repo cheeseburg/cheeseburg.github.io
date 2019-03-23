@@ -25,10 +25,8 @@ For example：
   2. `1+23+4-5+6-7-8-9 = 5`
 
 Please write codes to calculate the total # of solutions.
-
-​	input: integer, eg. 5
-
-​	output: the # of solutions, eg. 21
+- input: integer, eg. `5`
+- output: the # of solutions, eg. `21`
 
 
 

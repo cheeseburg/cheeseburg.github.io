@@ -14,6 +14,7 @@ tags:                               #标签
 ### Basis Pursuit to LP
 
 Consider  the following compressive sensing problem via $\ell_1$-minimization (Basic Pursuit)
+
 $$
 \begin{align*}
 \arg \min_{x} \: & \: {\left\| x \right\|}_{1} \\
@@ -29,7 +30,7 @@ Then setting $ {\left\|x_{i}\right\|} \leq t_{i} $ could be written as follows:
 
 $$
 \begin{align*}
-\arg \min_{t} \: & \: \boldsymbol{1}^{T} t \\
+\arg \min_{x,t} \: & \: \boldsymbol{1}^{T} t \\
 \text{subject to} \: & \: A x = b \\
 & \: \left| {x}_{i} \right| \leq {t}_{i} \; \forall i
 \end{align*}
@@ -39,7 +40,7 @@ Since $ {\left\|x_{i} \right\|} \leq t_{i} \iff x_{i} \leq t_{i}, \, x_{i} \geq 
 
 $$
 \begin{align*}
-\arg \min_{t} \: & \: \boldsymbol{1}^{T} t \\
+\arg \min_{x,t} \: & \: \boldsymbol{1}^{T} t \\
 \text{subject to} \: & \: A x = b \\
 & \: {x}_{i} \leq {t}_{i} \; \forall i \\
 & \: {x}_{i} \geq -{t}_{i} \; \forall i
@@ -50,7 +51,7 @@ Which can be farther refined:
 
 $$
 \begin{align*}
-\arg \min_{t} \: & \: \boldsymbol{1}^{T} t \\
+\arg \min_{x,t} \: & \: \boldsymbol{1}^{T} t \\
 \text{subject to} \: & \: A x = b \\
 & \: I x - I t \preceq \boldsymbol{0} \\
 & \: -I x - I t \preceq \boldsymbol{0}

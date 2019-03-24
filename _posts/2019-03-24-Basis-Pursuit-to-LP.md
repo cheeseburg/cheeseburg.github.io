@@ -21,11 +21,11 @@ $$
 \end{align*}
 $$
 
-The term $ {\left\| x \right\|}_{1} $ can written in element wise form:
+The term can be written in element wise form:
 
 $$ {\left\| x \right\|}_{1} = \sum_{i = 1}^{n} \left| {x}_{i} \right| $$
 
-Then setting $ \left|{x_{i}}\right| \leq {t}_{i}$ one could write:
+Then setting could  be written as follows:
 
 $$
 \begin{align*}

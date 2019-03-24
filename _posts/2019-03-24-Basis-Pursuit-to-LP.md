@@ -25,8 +25,6 @@ The term $ {\left\| x \right\|}_{1} $ can be written in element wise form:
 
 $$ {\left\| x \right\|}_{1} = \sum_{i = 1}^{n} \left| {x}_{i} \right| $$
 
-Then setting $ {\left\| {x}_{i} \right\|} \leq {t}_{i} $ could  be written as follows:
-
 Then setting $ {\left\|x_{i}\right\|} \leq {t}_{i} $ could be written as follows:
 
 $$
@@ -38,6 +36,8 @@ $$
 $$
 
 Since $ {\left\| {x}_{i} \right\|} \leq {t}_{i} \iff {x}_{i} \leq {t}_{i}, \, {x}_{i} \geq -{t}_{i} $ then:
+
+Since $ {\left\|x_{i} \right|} \leq {t}_{i} \iff {x}_{i} \leq {t}_{i}, \, {x}_{i} \geq -{t}_{i}$ then:
 
 $$
 \begin{align*}

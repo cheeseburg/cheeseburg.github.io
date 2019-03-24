@@ -13,15 +13,14 @@ tags:                               #标签
 
 ### Basis Pursuit to LP
 
-Consider  the following compressive sensing problem via $\ell_1$-minimization 
+Consider  the following compressive sensing problem via $\ell_1$-minimization (Basic Pursuit)
 $$
-\begin{equation}
-		\begin{aligned}
-		        \mathop {\rm{minimize}}_{{x}\in \mathbb{R}^d}\quad & \|{x}\|_1  \\
-		         \rm{subject~to} \quad & {Ax} = {z}.
-		\end{aligned}
-		\end{equation}
+\begin{align*}
+\arg \min_{x} \: & \: {\left\| x \right\|}_{1} \\
+\text{subject to} \: & \: A x = b
+\end{align*}
 $$
+
 The term $ {\left\| x \right\|}_{1} $ can written in element wise form:
 
 $$ {\left\| x \right\|}_{1} = \sum_{i = 1}^{n} \left| {x}_{i} \right| $$

@@ -17,7 +17,7 @@ Consider  the following compressive sensing problem via $\ell_1$-minimization
 $$
 \begin{equation}
 		\begin{aligned}
-		        \mathop {\rm{minimize}}_{{x}\in\mathbb{R}^d}}\quad & \|{x}\|_1  \\
+		        \mathop {\rm{minimize}}_{{x}\in \mathbb{R}^d}\quad & \|{x}\|_1  \\
 		         \rm{subject~to} \quad & {Ax} = {z}.
 		\end{aligned}
 		\end{equation}

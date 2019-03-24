@@ -35,7 +35,7 @@ $$
 \end{align*}
 $$
 
-Since $ {\left\|x_{i} \right|} \leq t_{i} \iff x_{i} \leq t_{i}, \, x_{i} \geq -t_{i}$ then:
+Since $ {\left\|x_{i} \right\|} \leq t_{i} \iff x_{i} \leq t_{i}, \, x_{i} \geq -t_{i} $ then:
 
 $$
 \begin{align*}

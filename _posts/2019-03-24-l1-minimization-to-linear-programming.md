@@ -30,7 +30,7 @@ Then setting $ \left| {x}_{i} \right| \leq {t}_{i} $ one could write:
 
 $$
 \begin{align*}
-\arg \min_{t} \: & \: \boldsymbol{1}^{T} t \\
+\arg \min_{x,t} \: & \: \boldsymbol{1}^{T} t \\
 \text{subject to} \: & \: A x = b \\
 & \: \left| {x}_{i} \right| \leq {t}_{i} \; \forall i
 \end{align*}
@@ -40,7 +40,7 @@ Since $ \left| {x}_{i} \right| \leq {t}_{i} \iff {x}_{i} \leq {t}_{i}, \, {x}_{i
 
 $$
 \begin{align*}
-\arg \min_{t} \: & \: \boldsymbol{1}^{T} t \\
+\arg \min_{x,t} \: & \: \boldsymbol{1}^{T} t \\
 \text{subject to} \: & \: A x = b \\
 & \: {x}_{i} \leq {t}_{i} \; \forall i \\
 & \: {x}_{i} \geq -{t}_{i} \; \forall i
@@ -51,7 +51,7 @@ Which can be farther refined:
 
 $$
 \begin{align*}
-\arg \min_{t} \: & \: \boldsymbol{1}^{T} t \\
+\arg \min_{x,t} \: & \: \boldsymbol{1}^{T} t \\
 \text{subject to} \: & \: A x = b \\
 & \: I x - I t \preceq \boldsymbol{0} \\
 & \: -I x - I t \preceq \boldsymbol{0}

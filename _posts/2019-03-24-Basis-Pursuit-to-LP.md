@@ -27,6 +27,8 @@ $$ {\left\| x \right\|}_{1} = \sum_{i = 1}^{n} \left| {x}_{i} \right| $$
 
 Then setting $ {\left\| {x}_{i} \right\|} \leq {t}_{i} $ could  be written as follows:
 
+Then setting $ {\left\|x_{i}\right\|} \leq {t}_{i} $ could be written as follows:
+
 $$
 \begin{align*}
 \arg \min_{t} \: & \: \boldsymbol{1}^{T} t \\

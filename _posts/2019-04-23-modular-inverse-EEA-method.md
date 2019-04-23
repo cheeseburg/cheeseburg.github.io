@@ -68,7 +68,7 @@ if __name__ == '__main__':
     res, x = 1, c
     for i in range(1, cnt+1):
 	if eval(d[-i]) == 1:
-		res = res*x*eval(d[-i])
+	    res = res*x*eval(d[-i])
 	x = (x*x)%N # thanks Qingting Jiang for the correction
     print(res%N)
 ```

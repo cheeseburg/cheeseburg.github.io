@@ -70,8 +70,8 @@ if __name__ == '__main__':
     	if eval(d[-i]) == 1:
 			res = res*x*eval(d[-i])
 		x = (x*x)%N # thanks echo for the correction
+		
 	print(res%N)
-
 ```
 
 ---

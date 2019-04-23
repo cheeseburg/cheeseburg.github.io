@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      RSA加密             # 标题 
-subtitle:   modular inverse&EEA(download from wikibooks)  #副标题
+title:      RSA（Cryptosystem）            # 标题 
+subtitle:   modular inverse&EEA(from wikibooks)  #副标题
 date:       2019-04-23              # 时间
 author:     羽聪                      # 作者
 header-img: img/RSA(1).jpg    #这篇文章标题背景图片
@@ -55,10 +55,12 @@ if __name__ == '__main__':
 	e= int(input("e: ")) # 1<e<phi
     
     '''the mulinv() function contains step 4 and step 5'''
-	d = mulinv(e, phi) # modular inverse of e
+    d = mulinv(e, phi) # modular inverse of e
 	print("e's modular inverse is {}".format(d))
+    
     '''(N, e) is public key, (N, d) is private key. 
     	Note that p,q,phi are also private'''
+    
     # EEA part below
     # convert d to binary
 	d = str(bin(d))[2:]

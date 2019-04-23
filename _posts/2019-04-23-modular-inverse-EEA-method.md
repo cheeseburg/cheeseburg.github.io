@@ -51,12 +51,12 @@ if __name__ == '__main__':
     N = p*q
     
     '''step 3'''
-	phi=(p-1)*(q-1) # Euler function
-	e= int(input("e: ")) # 1<e<phi
+    phi=(p-1)*(q-1) # Euler function
+    e= int(input("e: ")) # 1<e<phi
     
     '''the mulinv() function contains step 4 and step 5'''
     d = mulinv(e, phi) # modular inverse of e
-	print("e's modular inverse is {}".format(d))
+    print("e's modular inverse is {}".format(d))
     
     '''(N, e) is public key, (N, d) is private key. 
     	Note that p,q,phi are also private'''

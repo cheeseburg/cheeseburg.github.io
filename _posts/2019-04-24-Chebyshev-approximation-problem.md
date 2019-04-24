@@ -12,8 +12,8 @@ tags:                               #标签
 ---
 
 ### Chebyshev approximation to LP
-
-$$\arg \text{minimize}\quad max_{x=1,...,k}|a_{i}^{T}x-b_i|.$$
+Chebyshev approximation:
+$$\arg \text{minimize}\quad max_{x=1,...,k}|a_{i}^{T}x-b_i|$$.
 
 It can be converted to a LP problem, which is
 

@@ -11,8 +11,10 @@ tags:                               #标签
     - campus
 ---
 
-Chebyshev approximation
+### Chebyshev approximation to LP
 
 \arg \text{minimize}\quad max_{x=1,...,k}|a_{i}^{T}x-b_i|.
+
 It can be converted to a LP problem, which is
- \begin{align*} \text{minimize} &\quad t\\ \text{subject to} &\quad a_{i}^{T}x-t\le b_i, i=1,...k\\&-a_{i}^{T}x-t\le -b_{i}, i= 1,...,k\end{align*}
+
+\begin{align*} \text{minimize} &\quad t\\ \text{subject to} &\quad a_{i}^{T}x-t\le b_i, i=1,...k\\&-a_{i}^{T}x-t\le -b_{i}, i= 1,...,k\end{align*}

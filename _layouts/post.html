@@ -81,22 +81,24 @@ layout: default
                     {% endif %}
                 </ul>
 
-                <!-- gitment评论系统 -->
-                <div id="gitmentContainer"></div>
-                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-                <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-                <script>
-                var gitment = new Gitment({
+                <!-- Gitalk 评论 start -->
+                <!-- Link Gitalk 的支持文件 -->
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+                <div id="gitalk-container"></div>
+                <script type="text/javascript">
+                    var gitalk = new Gitalk({
+                    // gitalk的主要参数
+                    clientID: `34e1c4fe7e286a2ef31f`,
+                    clientSecret: `98123925fde78efa4a29e2b8a965680682ea4436`,
+                    repo: `gitalk_repo`,
                     owner: 'cheeseburg',
-                    repo: 'gitment_repo',
-                    oauth: {
-                        client_id: '8518972aa2494176af42',
-                        client_secret: '6821b83963d1f777a08fb6d277d7ab81b081f906',
-                    },
-                });
-                gitment.render('gitmentContainer');
+                    admin: ['cheeseburg'],
+                    id: 'cheesetalk',
+                    });
+                    gitalk.render('gitalk-container');
                 </script>
-                <!-- gitment评论系统 ends here -->
+                <!-- Gitalk end -->
 
             </div>  
 
